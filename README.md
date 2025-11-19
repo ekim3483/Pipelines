@@ -1,1 +1,1 @@
-Pipeline templates for my future reference or yours. Thanks to IBM Skills Network on Coursera and Stack Overflow.
+Pipeline templates. Credit to Ramesh Sannareddy at IBM Skills Network on Coursera.
