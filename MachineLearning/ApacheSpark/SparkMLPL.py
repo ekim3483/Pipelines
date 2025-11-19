@@ -63,7 +63,7 @@ lr = LinearRegression(featuresCol="scaledFeatures", labelCol="___")
 
 #Training and building the pipeline
 pipeline = Pipeline(stages=[vectorAssembler, scaler, lr])
-(trainingData, testData) = mpg_data.randomSplit([0.7, 0.3], seed=42)
+(trainingData, testData) = dataset.randomSplit([0.7, 0.3], seed=42)
 model = pipeline.fit(trainingData)
 
 predictions = model.transform(testData)
