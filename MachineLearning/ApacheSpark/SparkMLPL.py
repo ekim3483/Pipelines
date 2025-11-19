@@ -15,7 +15,7 @@ pip install findspark
 And pandas:
 pip install pandas
 
-Also add the input and output columns as stated in the TODO comments in the file. 
+Also add the input and output columns as stated in the TODO comments. 
 
 The program will output an RMSE value in your console, following a bunch of warnings which can be ignored.
 '''
