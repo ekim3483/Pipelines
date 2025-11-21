@@ -22,7 +22,7 @@ The program will output an RMSE value in your console, following a bunch of warn
 To delete Parquet directories, run the following commands in terminal (https://docs.python.org/3/library/shutil.html):
 
 import shutil
-shutil.rmtree('/folder_name')
+shutil.rmtree('file_name')
 
 '''
 
