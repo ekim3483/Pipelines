@@ -18,6 +18,12 @@ pip install pandas
 Also add the input and output columns as stated in the TODO comments. 
 
 The program will output an RMSE value in your console, following a bunch of warnings which can be ignored.
+
+To delete Parquet directories, run the following commands in terminal (https://stackoverflow.com/questions/37617263/how-to-delete-a-parquet-file-on-spark):
+
+import shutil
+shutil.rmtree('/folder_name')
+
 '''
 
 
