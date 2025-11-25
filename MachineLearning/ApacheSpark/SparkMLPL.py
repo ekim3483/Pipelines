@@ -74,8 +74,6 @@ model = pipeline.fit(trainingData)
 
 predictions = model.transform(testData)
 
-print("Predictions for first 10 values of test data:", predictions[0:10])
-
 #TODO: replace "___" with name of column to predict
 evaluator = RegressionEvaluator(labelCol="___", predictionCol="prediction", metricName="rmse")
 rmse = evaluator.evaluate(predictions)
