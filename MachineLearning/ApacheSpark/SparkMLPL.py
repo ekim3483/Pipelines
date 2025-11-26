@@ -17,7 +17,7 @@ pip install pandas
 
 Also add the input and output columns as stated in the TODO comments. 
 
-The program will output an RMSE value in your console, following a bunch of warnings which can be ignored.
+The program will output the first 10 predictions and RMSE value in your console, following a bunch of warnings which can be ignored.
 
 To delete Parquet directories, run the following commands in terminal (https://docs.python.org/3/library/shutil.html):
 
